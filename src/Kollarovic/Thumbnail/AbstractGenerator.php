@@ -13,7 +13,7 @@ use Nette,
 */
 abstract class AbstractGenerator
 {
-	use Nette\SmartObject
+	use Nette\SmartObject;
 	
 	/** @var string */
 	protected $src;
